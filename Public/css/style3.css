@@ -38,6 +38,7 @@
 
 #stemhead {
     color: white;
+    margin-right:70px;
 
 }
 
@@ -84,11 +85,18 @@
     text-shadow: black 0.3em 0.3em 0.3em;
 }
 
+#textcolor2 {
+    margin-top: 10px;
+    color:white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
 
 #imageas {
-    height : 35%;
-    width : 35%;
+    height : 50%;
+    width : 50%;
 }
+
 
 #footer {
     position: fixed;
