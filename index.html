@@ -36,20 +36,28 @@
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-           
-        
-          <a class="navbar-brand current" href="index.html" id="stemhead">AGENT STEAM ACADEMY</a>
-          <a class="navbar-brand" href="programschedule.html" id="stemhead">PROGRAMS</a>
-          <a class="navbar-brand" href="testimonials.html" id="stemhead">TESTIMONIALS</a>
-          <a class="navbar-brand" href="aboutus.html" id="stemhead">ABOUT US</a>
-          <a class="navbar-brand" href="contactus.html" id="stemhead">CONTACT US</a>
-        </div>
-      
-      </div>
-     
-    </nav> 
+  <div class="container">
+    <div class="navbar-header">
+      <!-- Hamburger icon for mobile -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html" id="stemhead">HOME</a>
+    </div>
+    <!-- Collapsible menu -->
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="programschedule.html">PROGRAMS</a></li>
+        <li><a href="testimonials.html">TESTIMONIALS</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
