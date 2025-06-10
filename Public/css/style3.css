@@ -25,6 +25,10 @@
     color: white;
 }
 
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
@@ -93,8 +97,8 @@
 
 
 #imageas {
-    height : 50%;
-    width : 50%;
+    height : 70%;
+    width : 70%;
 }
 
 
@@ -173,3 +177,53 @@ nav a.current {
   border: 0;
 }
 
+.borderbox
+{border:5px solid darkgreen;}
+
+.borderbox2
+{border:5px solid darkgreen;
+margin:30px;
+padding:5px;}
+
+.centeralign {
+    text-align: center;
+}
+
+.btn-contact {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4285f4; /* Google blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(66, 133, 244, 0.2), 0 1.5px 4px rgba(0,0,0,0.12);
+}
+
+.btn-contact:hover {
+  background-color: #3367d6;
+}
+
+.email-button {
+  display: inline-block;
+  background-color: #4285f4;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(66, 133, 244, 0.2), 0 1.5px 4px rgba(0,0,0,0.12);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.email-button:hover, .email-button:focus {
+  background-color: #3367d6;
+  box-shadow: 0 8px 24px rgba(66, 133, 244, 0.28), 0 3px 8px rgba(0,0,0,0.16);
+  transform: translateY(-2px) scale(1.03);
+}
