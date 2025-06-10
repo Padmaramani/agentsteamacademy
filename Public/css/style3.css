@@ -178,12 +178,15 @@ nav a.current {
 }
 
 .borderbox
-{border:5px solid darkgreen;}
+{border:2px solid white;
+ box-sizing: border-box;
+  margin-top:5px;}
 
 .borderbox2
-{border:5px solid darkgreen;
+{border:2px solid white;
 margin:30px;
-padding:5px;}
+padding:5px;
+ box-sizing: border-box;}
 
 .centeralign {
     text-align: center;
