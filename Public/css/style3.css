@@ -101,6 +101,13 @@
     width : 70%;
 }
 
+.imageas2 {
+  width: 250px;           /* Set your desired width */
+  height: 180px;          /* Set your desired height */
+  object-fit: cover;      /* Ensures images fill the box and are cropped if needed */
+  margin: 10px;           /* Adds space around each image */
+  display: block;         /* Removes inline gap if needed */
+}
 
 #footer {
     position: fixed;
